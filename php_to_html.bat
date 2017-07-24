@@ -1,0 +1,1 @@
+php .\php\index.php > pages\index.html

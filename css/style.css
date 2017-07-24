@@ -1,0 +1,19 @@
+body {
+  background-color: #F00;
+  font-family: 'Bellefair', serif;
+  font-weight: 300;
+}
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
