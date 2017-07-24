@@ -1,4 +1,122 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #E8DFE0;
+}
+
+header {
+    font-family: 'Fredericka the Great', cursive;
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/18947821_434856510229126_7348845418920280064_n.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+/* .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #E8DFE0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: #E8DFE0;
+    font-family: 'Fredericka the Great', cursive;
+} */
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    font-family: 'Righteous', cursive;
+    background-color: #2e4281;
+    color: #E8DFE0;
+}
+
+.btn.btn-primary:hover {
+    color: #E8DFE0;
+    background-color: #2e4281;
+}
+
+.btn-secondary {
+    background-color: #2e4281;
+    color: #E8DFE0;
+    margin: 0 0 30px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+.shadow {
+    border-radius: 10em;
+    background-color: rgba(10, 10, 10, 0.1);
+    color: rgba(232, 223, 224, 0.9);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.shadow:hover {
+    background-color: rgba(10, 10, 10, 0.9);
+    background-image: url("https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/18947821_434856510229126_7348845418920280064_n.jpg");
+    color: rgba(232, 223, 224, 0.9);
+}
+
+
+/* body {
   background-color: #F00;
   font-family: 'Bellefair', serif;
   font-weight: 300;
@@ -16,4 +134,4 @@ nav li {
 
 nav ul {
   display: inline;
-}
+} */
